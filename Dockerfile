@@ -20,7 +20,7 @@ ENV SQL_DATABASE=mydb
 ENV SQL_USER=myuser
 ENV SQL_PASSWORD=32ghukj45ihhkj3425
 ENV SQL_PORT=3306
-ARG DOCKER_GID=994  # Default fallback
+ARG DOCKER_GID=996  # Default fallback
 RUN useradd -m appuser
 
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
