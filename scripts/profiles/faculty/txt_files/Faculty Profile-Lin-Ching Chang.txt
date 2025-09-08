@@ -1,0 +1,89 @@
+Faculty Profile: Lin-Ching Chang
+Associate Professor
+
+Department: Electrical Engineering and Computer Science
+
+School: School of Engineering
+
+Email: changl@cua.edu
+
+Phone: 202-319-4691
+
+Education: D.Sc, Computer Science (minor in Statistics), George
+Washington University, 1998
+
+Research Interests and Expertise:
+
+Machine learning, medical image processing and analysis, data analysis,
+computational neuroscience, diffusion MRI, algorithm design, software
+development
+
+Biography:
+
+Lin-Ching Chang joined the Catholic University of America (CUA) in 2007
+where she currently is an associate professor in the Department of
+Electrical Engineering and Computer Science and the director of Data
+Analytics program. Prior to joining CUA, she was working at National
+Institutes of Health (NIH) on developing machine learning algorithms and
+computational methods for medical image processing and analysis. Prior
+to joining NIH, she worked at 3Com Corporation for four years as a
+senior software engineer where she gained extensive experience in
+software development. She initiated and led several commercial projects
+including an interactive voice response system, database migration, and
+wireless applications. Dr. Chang has published more than 90
+peer-reviewed articles in scientific journals and conferences such as
+NeuroImage, Magnetic Resonance in Medicine, and IEEE Transaction on
+Medical Imaging. Her research has been supported by the National
+Institutes of Health, the National Science Foundation, and the Henry M.
+Jackson Foundation for the Advancement of Military Medicine, among other
+entities.
+
+Five Selected Papers:
+
+1.  I Almubark, L-C Chang, K Shattuck, T Nguyen, R Turner, X Jiang
+    (2020), A 5-min Cognitive Task With Deep Learning Accurately Detects
+    Early Alzheimer's Disease, Frontiers in Aging Neuroscience, Volume
+    12, DOI: 10.3389/fnagi.2020.603179.
+
+2.  L Walker, L-C Chang, A Nayak, M O Irfanoglu, K N Botteron, J
+    McCracken, R C McKinstry, M J Rivkin, D-J Wang, J Rumsey, C
+    Pierpaoli (2016), the Brain Development Cooperative Group, The
+    Diffusion Tensor Imaging (DTI) Component of The NIH MRI Study of
+    Normal Brain Development (PedsDTI), NeuroImage, doi:
+    10.1016/j.neuroimage.2015.05.083.
+
+3.  L-C Chang, E El-Araby, V Dang, L Dao (2014), GPU Acceleration of
+    Nonlinear Diffusion Tensor Estimation Using CUDA and MPI,
+    Neurocomputing 135, pp.328–338, doi:10.1016/j.neucom.2013.12.035.
+
+4.  L-C Chang, L Walker L, C Pierpaoli (2012), Informed RESTORE: A
+    Method for Robust Estimation of Diffusion Tensor from Low Redundancy
+    Datasets in the Presence of Physiological Noise Artifacts, Magnetic
+    Resonance in Medicine 68, pp.1654-1663.
+
+5.  L-C Chang, DK Jones, C Pierpaoli C (2005), RESTORE: Robust
+    Estimation of Tensors by Outlier Rejection. Magnetic Resonance in
+    Medicine 53, pp.1088-95.
+
+Professional Activities (please also include STEM
+
+
+-   Program committee member: IEEE BIG Data conference, 2015-2021,
+    International Conference on Neural Computation Theory and
+    Application (NCTA), and International Joint Conference on
+    Computational Intelligence (IJCCI), 2018-2021. IEEE Cloud Summit
+    2019.
+
+-   Panel reviewer (NIH): Biomedical Imaging Technology A Study Section
+    (BMIT-A), 2018., Bioengineering Research Partnerships-U01
+    (SBIB-H55), 2017 and 2018, Bioinformatics Support for the National
+    Institute of Environmental Health Sciences (NIEHS), NIH RFP
+    ES2015058, 2016.
+
+-   Associate Editor of Frontiers in Artificial Intelligence,
+    2021-present.
+
+-   Journal reviewer, NeuroImage, International Journal of Biomedical
+    Imaging, IEEE Transaction on Medical Imaging, IEEE Journal of
+    Biomedical and Health Informatics, Artificial Intelligence in
+    Medicine, Diagnostics, Tomography.

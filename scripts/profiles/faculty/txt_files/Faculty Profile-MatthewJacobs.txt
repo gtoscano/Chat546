@@ -1,0 +1,72 @@
+Faculty Profile: Matthew Jacobs
+Clinical Assistant Professor
+
+Department: Electrical Engineering and Computer Science
+
+School: School of Engineering
+
+Email: JacobsMJ@cua.edu
+
+Phone: 202-319-6125
+
+Education: Ph.D., Computer Science, The Catholic University of America,
+2017
+
+Research Interests and Expertise:
+
+Computer Vision (specifically, Medical Image Processing and Astronomical
+Image Processing), Machine Learning, Pattern Recognition, Image
+Processing, and Computer Security.
+
+Biography:
+
+Matthew Jacobs joined The Catholic University of America (CUA) faculty
+in 2019, where he is currently a Clinical Assistant Professor of
+Computer Science in the Department of Electrical Engineering and
+Computer Science of the School of Engineering. He received his B.S.,
+M.S., and Ph.D. degrees in computer science from CUA in 2010, 2012, and
+2018, respectively. From 2018‐2019, he completed a post‐doctoral
+position at the Advanced Cardiovascular Imaging Laboratory within the
+National Heart, Lung and Blood Institute, National Institute of Health
+and CUA. This research has yielded more than 10 publications in leading
+journals and conferences, and one US Patent application.
+
+Five Selected Papers:
+
+1.  M. Jacobs, M. Benovoy, L. C. Chang, A. E. Arai, and L. Hsu,
+    “Evaluation of an automated method for arterial input function
+    detection for first-pass myocardial perfusion cardiovascular
+    magnetic resonance,” Journal of Cardiovascular Magnetic Resonance:
+    Official Journal of the Society for Cardiovascular Magnetic
+    Resonance, 2016;18:17. doi:10.1186/s12968-016-0239-0.
+
+2.  M. Jacobs, L. C. Chang, A. Pulkkinen, M. Romano, “Automatic analysis
+    of double coronal mass ejections from coronagraph images,” Space
+    Weather. 2015; 13:11 pp.761-777. DOI: 10.1002/2015SW001260.
+
+3.  M. Jacobs, “Advanced Image Processing in Cardiac Magnetic Resonance
+    Imaging with Application in Myocardial Perfusion Quantification” PhD
+    diss., The Catholic University of America; 2017, ProQuest.
+
+4.  L. Hsu, M. Jacobs, M. Benovoy, A.D. Ta, H. M. Conn, S.
+    Winkler, A. M. Greve, M. Y. Chen, S. M. Shanbhag, W. P. Bandettini
+    and A. E. Arai, “Diagnostic Performance of Fully Automated
+    Pixel-Wise Quantitative Myocardial Perfusion Imaging by
+    Cardiovascular Magnetic Resonance,” JACC: Cardiovascular Imaging.
+    2018; 11:5 pp.697-707. DOI: 10.1016/j.jcmg.2018.01.005
+
+5.  V. Bui, S. Shanbhag, O. Levine, M. Jacobs, P. Bandettini, L.
+    Chang, M. Y. Chen, L. Hsu, "Simultaneous Multi-Structure
+    Segmentation of the Heart and Peripheral Tissues in Contrast
+    Enhanced Cardiac Computed Tomography Angiography” in IEEE Access,
+    vol. 8, pp. 16187-16202, 2020, doi: 10.1109/ACCESS.2020.2966985.
+
+Professional Activities
+
+-   Reviewer, IEEE Access, 2019-present.
+
+-   Research assistant/Postdoctoral Researcher at The National Institute
+    of Health – National Heart, Lung, and Blood Institute: 2013-2019.
+
+-   Research assistant at CUA in partnership with NASA Goddard Space
+    Flight Center: 2010-2011.

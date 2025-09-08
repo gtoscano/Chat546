@@ -1,0 +1,21 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans with site_name=current_site.name %}
+Hello from {{ site_name }}!
+
+{% endblocktrans %}
+
+{% block content %}
+{% endblock content %}
+
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+Thank you for choosing {{ site_name }}!
+Visit us anytime at: {{ site_domain }}
+
+If you have any questions or need assistance, feel free to contact our support team at support@{{ site_domain }}.
+
+Best regards,  
+The {{ site_name }} Team
+{% endblocktrans %}
+{% endautoescape %}
+

@@ -1,0 +1,39 @@
+<!-- templates/core/contact.html -->
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <!-- Hero Section -->
+  <section class="hero min-h-screen bg-base-200">
+    <div class="hero-content flex-col lg:flex-row-reverse">
+      <img src="{% static 'logos/logo-title.png' %}" alt="IgniteHub Logo" class="max-w-sm rounded-lg shadow-2xl">
+      <div class="text-center lg:text-left">
+        <h1 class="text-5xl font-bold">Contact Me</h1>
+        <p class="py-6">
+          If you have any questions or need assistance, feel free to reach out to me using the contact information below.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information Section -->
+  <section class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Get in Touch</h2>
+      <p class="text-xl mb-4">Gregorio Toscano</p>
+      <p>Computer Science Department</p>
+      <p>The Catholic University of America</p>
+      <p>Pangborn Hall 309 | Washington, DC 20064</p>
+      <p>Email: <a href="mailto:gtoscano@cua.edu" class="link link-primary">gtoscano@cua.edu</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer footer-center p-4 bg-primary text-primary-content">
+    <div>
+      <p>&copy; 2026 Chat546. All rights reserved.</p>
+      <p>Designed and Developed by Gregorio Toscano</p>
+    </div>
+  </footer>
+
+{% endblock content %}

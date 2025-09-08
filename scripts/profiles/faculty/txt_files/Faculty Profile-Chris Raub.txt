@@ -1,0 +1,81 @@
+Faculty Profile: Christopher Raub
+Assistant Professor
+
+Department: Biomedical Engineering
+
+School: School of Engineering
+
+Email: raubc@cua.edu
+
+Phone: 202-319-5095
+
+Education: Ph.D., Biomedical Engineering, University of California,
+Irvine, 2009
+
+Research Interests and Expertise:
+
+Tissue engineering, complex in vitro cancer models, tissues-on-a-chip,
+mucosal biology, machine learning, biophotonics, tissue polarimetry,
+digital holographic microscopy, biofabrication, hydrogel materials,
+microfluidics, collagen network microstructure, tissue mechanics,
+digital image processing.
+
+Biography:
+
+Chris Raub joined the Catholic University of America in 2014 where he is
+currently an assistant professor in the Department of Biomedical
+Engineering. Prior to joining Catholic University, he had postdoctoral
+appointments in Bioengineering at the University of California, San
+Diego (F32 postdoctoral fellowship; 2009-2013) and the Department of
+Pathology at the Keck School of Medicine, University of Southern
+California (2013-2014). Dr. Raub has published over 40 papers in leading
+journals as well as numerous conferences proceedings papers and a book
+chapter.
+
+Five Selected Papers:
+
+1.  Lam VK, Nguyen TC, Chung BM, Nehmetallah G, and CB Raub.
+    Quantitative assessment of cancer cell morphology and motility using
+    telecentric digital holographic microscopy and machine learning.
+    Cytometry A, 93(3):334-345, 2018. PMID 29283496.
+
+2.  Lam VK, Nguyen TC, Phan T, Chung BM, Nehmetallah G, and CB Raub.
+    Machine Learning with Optical Phase Signatures for Phenotypic
+    Profiling of Cell Lines. Cytometry A, 2019 (e-published).
+    PMID31008570.
+
+3.  Li K, Correa SO, Pham P, Raub CB, and Luo X. Birefringence of
+    flow-assembled chitosan membranes in microfluidics. Biofabrication,
+    9(3): 034101, 2017. PMID 28664877.
+
+4.  Rahimi C, Rahimi B, Padova D, Rooholghodos S, Bienek DR, Luo X,
+    Kaufman G, and CB Raub. Oral mucosa-on-a-chip to assess
+    layer-specific responses to bacteria and dental materials.
+    Biomicrofluidics. 12(5): 054106, 2018. PMID 30310527.
+
+5.  Huynh RN, Nehmetallah G, and CB Raub. Noninvasive assessment of
+    articular cartilage surface damage using reflected polarized light
+    microscopy. Journal of Biomedical Optics, 22(6):65001, 2017. PMID
+    28586854.
+
+Professional Activities (please also include STEM
+
+
+-   Mentor, CUA team to the BMES Coulter College for Innovative
+    Biodesign (2016,2019).
+
+-   Faculty mentor, CUA student chapter of the Biomedical Engineering
+    Society (2014-present).
+
+-   Frequent abstract reviewer and resume workshop mentor for the
+    Biomedical Engineering Society annual meeting (2014-present).
+
+-   Served as a mentor to 14 engineering students from underrepresented
+    groups in STEM, out of 29 total mentees (48%), and three female high
+    school volunteers in summer research.
+
+-   Conducted periodic lab tours for K-12 students from Northeast
+    Washington, D.C., and the College Board Upward Bound Program.
+    Students were from groups under-represented in STEM careers.
+
+-   member, Biomedical Engineering Society, Orthopedic Research Society

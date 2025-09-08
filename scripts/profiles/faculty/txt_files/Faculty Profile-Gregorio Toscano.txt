@@ -1,0 +1,84 @@
+Faculty Profile: Gregorio Toscano
+Assistant Professor
+
+Department: Electrical Engineering and Computer Science
+
+School: School of Engineering
+
+Email: gtoscano@cua.edu
+
+Phone: 202-319-4289
+
+Education: Ph.D., Electrical Engineering (Computer Science),
+Cinvestav-IPN, 2005
+
+Research Interests and Expertise:
+
+Multi-objective Optimization. Application of cutting-edge algorithms to
+solve large-scale optimization problems. Integration of user preferences
+in multi-objective optimization for better decision support. Utilization
+of machine learning models in optimization scenarios, enhancing
+decision-making and “innovization” techniques.
+
+Biography:
+
+Gregorio Toscano is an Assistant Professor at The Catholic University of
+America, having joined in the fall of 2024. Prior to this, he was an
+Associate Professor at Cinvestav-IPN, Mexico, where he dedicated nearly
+two decades to research and academic excellence. Dr. Toscano also served
+as a Research Associate at Michigan State University, collaborating on
+multi-objective optimization for watershed management projects. He
+earned his Master's degree from the University of Veracruz and completed
+his Ph.D. at Cinvestav-IPN, where he later contributed as an influential
+faculty member.
+
+Dr. Toscano has significantly impacted the field of evolutionary
+computing, developing the first multi-objective micro-genetic algorithm
+and pioneering multi-objective particle swarm optimization strategies.
+His scholarly work has resulted in over 8,000 citations, ranking him as
+the fourth-most-cited computer science researcher in Mexico as of 2015.
+He has published over 65 papers in peer-reviewed journals and
+international conferences, demonstrating a consistent focus on advancing
+computational science through innovative problem-solving and
+optimization techniques.
+
+Five Selected Papers:
+
+[1] Toscano, G., Razavi, H., Nejadhashemi, P., Deb, K., Linker, L.
+“Large-scale Multi-objective [2] Optimization for Watershed Planning and
+Assessment.” IEEE Transactions on Systems, Man, and Cybernetics:
+Systems, 2024.
+
+[2] Toscano, G., Hernández-Suárez, J., Blank, J., Nejadhashemi, P., Deb,
+K. “Utilizing Innovization to Solve Large-Scale Multi-Objective
+Chesapeake Bay Watershed Problem.” IEEE Congress on Evolutionary
+Computation, 2023.
+
+[3] Toscano, G., et al. “Evolutionary Instance Selection Based on
+Preservation of the Data Probability Density Function.” Computación y
+Sistemas, 2022.
+
+[4] Toscano, G., et al. “A New Gearbox Model for Processing Large
+Volumes of Data Using Virtual Containers.” Future Generation Computer
+Systems, 2020.
+
+[5] Carlos A. Coello Coello, Gregorio Toscano Pulido, and Maximino
+Salazar Lechuga, “Handling Multiple Objectives With Particle Swarm
+Optimization,” IEEE Transactions on Evolutionary Computation 8, no. 3
+(June 2004):256–279, issn: 1089-778X,
+https://doi.org/10.1109/TEVC.2004.826067
+
+Professional Activities (please also include STEM
+
+
+-   Managing Editor, IEEE Transactions on Evolutionary Computation
+    (2021-present).
+
+-   Senior Member, IEEE, ACM, and Mexican Academy of Computing.
+
+-   Best Paper Awards at CEC 2022, MCPR 2022, and EA 2009.
+
+-   Fourth-most-cited Computer Science Researcher in Mexico, 2015
+    (Scientometric mapping study).
+
+-   Mentor for Competitive Programming at CUA.

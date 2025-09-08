@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% load partials %}
+{% load static %}
+{% load i18n %}
+{% load allauth account socialaccount %}
+
+{% block head_title %}
+    {% trans "Logout - " %}{{ site_name }}
+{% endblock head_title %}
+
+{% block content %}
+    <div class="flex min-h-screen items-center justify-center bg-base-200">
+        <div class="m-4 min-h-[50vh] w-full max-w-sm lg:max-w-4xl">
+            <!-- Logo Section -->
+            <div class="flex items-center justify-center gap-2 p-8">
+                <!-- SVG Logo -->
+                <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1024 1024"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="256" y="670.72" width="512" height="256" rx="128" class="fill-base-content" />
+                    <circle cx="512" cy="353.28" r="256" class="fill-base-content" />
+                    <circle
+                        cx="512"
+                        cy="353.28"
+                        r="261"
+                        stroke="black"
+                        stroke-opacity="0.2"
+                        stroke-width="10" />
+                    <circle cx="512" cy="353.28" r="114.688" class="fill-base-200" />
+                </svg>
+                <h1 class="text-lg font-bold">
+                    {% trans "Logout" %}
+                </h1>
+            </div>
+            <!-- /Logo Section -->
+
+            <main class="grid bg-base-100 lg:aspect-[2/1] lg:grid-cols-2">
+                <!-- Image Section -->
+                <figure class="pointer-events-none bg-base-300 object-cover max-lg:hidden">
+                    <img src="{% static 'logos/logo.png' %}" alt="{% trans 'Logout Confirmation' %}" class="h-full">
+                </figure>
+                <!-- /Image Section -->
+
+                <!-- Logout Confirmation Section -->
+                <div class="flex flex-col justify-center gap-4 px-10 py-10 lg:px-16">
+                    <!-- Display Messages (If Any) -->
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-info text-xs">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+
+                    <!-- Confirmation Prompt -->
+                    <form class="flex flex-col gap-4"
+                          method="post"
+                          action="{% url 'account_logout' %}">
+                        {% csrf_token %}
+
+                        <div class="text-center">
+                            <h2 class="text-lg font-semibold mb-2">{% trans "Confirm Logout" %}</h2>
+                            <p class="text-xs">
+                                {% blocktrans %}
+                                    Are you sure you want to logout from {{ site_name }}?
+                                {% endblocktrans %}
+                            </p>
+                        </div>
+
+                        <!-- Logout Button -->
+                        <button class="btn btn-neutral" type="submit">
+                            {% trans "Logout" %}
+                        </button>
+
+                        <!-- Cancel Button -->
+                        <button type="button" onclick="history.back();" class="btn btn-light">
+                            {% trans "Cancel" %}
+                        </button>
+                    </form>
+
+                    <!-- Additional Information -->
+                    <div class="mt-4 text-xs text-center">
+                        {% blocktrans with site_name=site_name site_domain=site_domain %}
+                            If you did not initiate this logout, please contact our support team at support@{{ site_domain }}.
+                        {% endblocktrans %}
+                    </div>
+                </div>
+                <!-- /Logout Confirmation Section -->
+            </main>
+        </div>
+    </div>
+{% endblock content %}

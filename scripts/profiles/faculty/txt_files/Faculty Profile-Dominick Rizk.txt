@@ -1,0 +1,97 @@
+Faculty Profile: Dominick Rizk
+Assistant Professor
+
+Department: Electrical Engineering and Computer Science
+
+School: School of Engineering
+
+Email: rizkd@cua.edu
+
+Phone: 202-319-6465
+
+Education: Ph.D., Computer Engineering, University of Louisiana at
+Lafayette, 2023
+
+Research Interests and Expertise:
+
+Hardware security, Social Cybersecurity, Artificial intelligence,
+Machine/Deep Learning, Data Science and Analytics, Internet of Medical
+Things, High-Performance Computer Architecture, Reversible Logic,
+Quantum Computing, VLSI, and Emerging Technologies
+
+Biography:
+
+Dr. Dominick Rizk is currently an Assistant Professor in the department
+of Electrical Engineering and Computer Science at the Catholic
+University of America and the director of Center for Advanced Research
+in Computer Engineering (CARCE). Dr. Rizk received the B.E. degree in
+computer and communication engineering Summa Cum Laude highest honor
+distinction from Notre Dame University. He received his M.S. and Ph.D.
+degrees in Computer Engineering from the University of Louisiana at
+Lafayette (R1 Carnegie classification) while maintaining a perfect grade
+point average. He co-founded the Laboratory for Advanced Studies
+Research. He served as a Post-doctoral Research Fellow at ULL. Dr. Rizk
+has collaborated actively with researchers in several other disciplines
+of informatics, computer science, and engineering, ranging from theory
+to design to implementation, and has published several research papers
+in top-tier conferences and journals. He is the recipient of the
+prestigious ULL Dissertation Completion Fellowship. Dr. Rizk is also the
+recipient of many prestigious awards including the President's Award for
+Educational Excellence and Outstanding Academic Achievement and the
+Ragin' Leadership Academy Award.
+
+Five Selected Papers:
+
+1.  D. Rizk, R. Rizk, F. Rizk and A. Kumar, "An Economic
+    Uniqueness-Improved Reliable Reconfigurable RO PUF for IoT
+    Security," 2022 IEEE International Symposium on Circuits and Systems
+    (ISCAS), Austin, TX, USA, 2022, pp. 1680-1684.
+
+2.  R. Rizk, D. Rizk, F. Rizk, A. Kumar and M. Bayoumi, "A
+    Resource-Saving Energy-Efficient Reconfigurable Hardware Accelerator
+    for BERT-based Deep Neural Network Language Models using FFT
+    Multiplication," 2022 IEEE International Symposium on Circuits and
+    Systems (ISCAS), Austin, TX, USA, 2022, pp. 1675-1679.
+
+3.  F. Rizk, D. Rizk, R. Rizk and A. Kumar, "A Cost-Efficient
+    Reversible-Based Reconfigurable Ring Oscillator Physical Unclonable
+    Function," 2022 IEEE International Symposium on Circuits and Systems
+    (ISCAS), Austin, TX, USA, 2022, pp. 1685-1689.
+
+4.  Rizk, R., Rizk, D., Rizk, F. et al. 280 characters to the White
+    House: predicting 2020 U.S. presidential elections from twitter
+    data. Comput Math Organ Theory 29, 542–569 (2023).
+
+5.  C. E. Moucary, A. Kassem, D. Rizk, R. Rizk, S. Sawan and W. Zakhem,
+    (2024). A low-cost full-scale auto eye-tracking system for
+    mobility-impaired patients, AEU - International Journal of
+    Electronics and Communications, Urban & Fischer, 174, 155023.
+
+Professional Activities
+
+-   NSF Reviewer, 2024
+
+-   Judge for the Louisiana Region VI Science and Engineering Fair.
+
+-   Licensed Professional Engineer
+
+-   Member of the Order of the Engineer in the United States.
+
+-   Reviewer for numerous prestigious conferences and journals
+
+-   Lifetime member of the Phi Kappa Phi honor society
+
+-   Professional member of ACM and IEEE.
+
+-   Goodwill Ambassador
+
+-   Member of the IEEE Young Professionals, IEEE Women in Engineering,
+    IEEE Biometrics Council, IEEE Council on Electronic Design
+    Automation, IEEE Council on RFID, IEEE Council on Superconductivity,
+    IEEE Nanotechnology Council, IEEE Sensors Council, IEEE Systems
+    Council , IEEE Computer Society Special Technical Community on
+    Autonomous Driving Technologies, IEEE Computer Society Special
+    Technical Community on Cyber Security, IEEE SIGHT, IEEE Computer
+    Society Special Technical Community on Internet of Everything, IEEE
+    Quantum Community, IEEE Standards Association, IEEE Computer and
+    Quantum Society.

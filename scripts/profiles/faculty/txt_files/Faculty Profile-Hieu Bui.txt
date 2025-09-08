@@ -1,0 +1,80 @@
+Faculty Profile: Hieu Bui
+Assistant Professor
+
+Department: Electrical Engineering and Computer Science
+
+School: School of Engineering
+
+Email: buih@cua.edu
+
+Phone: 202-319-4765
+
+Education: Ph.D., Computer Science, Duke University, 2017
+
+Research Interests and Expertise:
+
+DNA nanotechnology and molecular computing, information technology and
+digital storage systems, nanoscience and neural networks, biosensing and
+diagnostics, nanophotonics and optical computing, systems biology and
+synthetic biology, nanofabrication and simulation
+
+Biography:
+
+Hieu Bui joined the Catholic University of America in 2019 where he
+currently is an assistant professor in the Department of Electrical
+Engineering and Computer Science. Prior to joining the University, he
+was a research fellow at the U.S. Naval Research Laboratory in the
+Center for Biomolecular Science and Engineering. He received his Ph.D.
+in Computer Science from Duke University and his M.Sc. and B.Sc. in
+Electrical and Computer Engineering from Boise State University. His
+research interests are focused on researching and developing functional
+and intelligent computing systems for addressing engineering, health,
+and energy applications. His research work has been published in high
+impact peer-reviewed journals (i.e. Nature Nanotechnology, Nano Letters,
+JACS, ACS Synthetic Biology, ACS Nano, Small, New Journal of Physics),
+conferences (i.e. Foundations of Nanoscience, International Conference
+on DNA Computing and Molecular Programming, ISDRS, IEEE IRW) and book
+chapters. He is a recipient of the following prestigious awards: NAS-NRC
+Fellowship, NAS-NRL Publication Award, Outstanding Duke University
+Computer Science Ph.D. Award, Duke University Nanoscience Fellowship,
+Micron Scholar.
+
+Five Selected Papers:
+
+1.  Bui, H.; Díaz, S. A.; Fontana, J.; Chiriboga, M.; Veneziano, R.;
+    Medintz, I. L., Utilizing the Organizational Power of DNA Scaffolds
+    for New Nanophotonic Applications. Adv. Opt. Mater. 2019, 7 (18),
+    1900562.
+
+2.  Song, T.; Shah, S.; Bui, H.; Garg, S.; Eshra, A.; Fu, D.; Yang, M.;
+    Mokhtar, R.; Reif, J., Programming DNA-Based Biomolecular Reaction
+    Networks on Cancer Cell Membranes. J. Am. Chem. Soc. 2019, 141 (42),
+    16539-16543.
+
+3.  Bui, H.; Brown III, C. W.; Buckhout‐White, S.; Díaz, S. A.;
+    Stewart, M. H.; Susumu, K.; Oh, E.; Ancona, M. G.; Goldman, E. R.;
+    Medintz, I. L., Transducing Protease Activity into DNA Output for
+    Developing Smart Bionanosensors. Small 2019, 15 (14), 1805384.
+
+4.  Bui, H.; Shah, S.; Mokhtar, R.; Song, T.; Garg, S.; Reif, J.,
+    Localized DNA Hybridization Chain Reactions on DNA Origami. ACS Nano
+    2018, 12 (2), 1146-1155.
+
+5.  Bui, H.; Onodera, C.; Kidwell, C.; Tan, Y.; Graugnard, E.; Kuang,
+    W.; Lee, J.; Knowlton, W. B.; Yurke, B.; Hughes, W. L., Programmable
+    periodicity of quantum dot arrays with DNA origami nanotubes. Nano
+    Lett. 2010, 10 (9), 3367-72.
+
+Professional Activities
+
+-   Member of International Society for Nanoscale Science, Computation
+    and Engineering (2009-present)
+
+-   Co-Organized 2nd Mid-Atlantic DNA Nanotechnology Symposium, National
+    Institute of Standard and Technology (2019)
+
+-   Co-Organized 13th Annual Conference – Foundations of Nanoscience –
+    Self-assembled Architectures and Devices (2016)
+
+-   Peer reviewer for ISNSCE DNA Conference, FNANO Conference, ACS
+    Family

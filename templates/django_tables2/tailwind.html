@@ -1,0 +1,19 @@
+<!-- templates/django_tables2/tailwind.html -->
+{% load django_tables2 %}
+<table class="django-table">
+    <thead>
+        {% for column, column_name in table.columns.items %}
+            <th>{{ column.verbose_name }}</th>
+        {% endfor %}
+    </thead>
+    <tbody>
+        {% for row in table.rows %}
+            <tr>
+                {% for column, cell in row.items %}
+                    <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+

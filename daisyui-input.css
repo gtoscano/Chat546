@@ -1,0 +1,5 @@
+/* daisyui-input.css */
+@import "tailwindcss" source(none);
+@source "./templates/*.{html,js}";
+@source "./templates/**/*.{html,js}";
+@plugin "daisyui";

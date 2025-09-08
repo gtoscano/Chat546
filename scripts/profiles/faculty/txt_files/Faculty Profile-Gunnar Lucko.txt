@@ -1,0 +1,83 @@
+Faculty Profile: Gunnar Lucko
+Professor
+
+Department: Civil and Environmental Engineering
+
+School: School of Engineering
+
+Email: lucko@cua.edu
+
+Phone: 202-319-4381
+
+Education: Ph.D., Civil and Environmental Engineering, Virginia Tech,
+2003
+
+Research Interests and Expertise:
+
+Schedule modeling and analysis, delay prevention by strategic use of
+float in network schedules, performance measurement of schedule
+timeliness, interaction with aspects like resources and costs, novel
+uses of singularity functions in construction management, simulation of
+heavy equipment operations, optimization methods, and engineering
+education.
+
+Biography:
+
+Gunnar Lucko joined Catholic University of America in 2005 and directs
+its construction engineering and management program. He holds Ph.D. and
+M.S. (Virginia Tech) and a 5-year German diploma (Hamburg University of
+Technology) in structural engineering. He has authored over 50 journal
+and over 70 conference papers. His research has been supported with five
+grants by the National Science Foundation (NSF) to date as well as
+industry foundations. In a humanitarian research project for VentureWell
+(formerly National Collegiate Inventors and Innovators Alliance) he,
+undergraduates, and professionals designed and built a small health
+clinic with low-cost, sustainable seismic foundation dampers in rural El
+Salvador. Since 2005 he mentors minority high schoolers in ACE (Career
+Directions for Students in Architecture, Construction, and Engineering).
+He has served in the CUA high school summer camp ‘Engineering New
+Frontiers’. He is senior specialty editor of the Journal Construction
+Engineering and Management and was chair of the Construction Research
+Council (ASCE). His work was honored with the 2013 ASCE Daniel W. Halpin
+Award for Scholarship in Construction and several university awards.
+
+Five Selected Papers:
+
+1.  Katsuragawa, C. M., Lucko, G., Isaac, S., Su. Y. (2020). “Fuzzy
+    Linear and Repetitive Scheduling for Construction Projects.” Journal
+    of Construction Engineering and Management 147(3): 04021002(13).
+
+2.  Su, Y., Lucko, G., Thompson, R. C. (2020). “Apportioning Contract
+    Float with Voting Methods to Correlated Activities in Network
+    Schedules to Protect Construction Projects from Delays.” Automation
+    in Construction, 118(October): 103263(16).
+
+3.  Düzkale, A. K., Lucko, G. (2016). “Exposing Uncertainty in Bid
+    Preparation of Steel Construction Cost Estimating: I. Conceptual
+    Framework and Qualitative C-I-V-I-L Classification.” Journal of
+    Construction Engineering and Management, 142(10): 04016049(9).
+
+4.  Lucko, G., Rojas, E. M. (2010). “Research Validation: Challenges and
+    Opportunities in the Construction Domain.” Journal of Construction
+    Engineering and Management, 136(1): 127-135.
+
+5.  Lucko, G. (2009). “Productivity Scheduling Method: Linear Schedule
+    Analysis with Singularity Functions.” Journal of Construction
+    Engineering and Management, 35(4): 246-253.
+
+Professional Activities:
+
+-   Mentor / Lead Mentor / Board Member ∙ ACE Mentor Program of Greater
+    Washington: 2005-2006 and 2013-Present / 2006-2012 / 2010-2013
+
+-   Senior Specialty Editor / Reviewer ∙ Journal of Construction
+    Engineering and Management / Automation in Construction, Journal of
+    Computing in Civil Engineering, Construction Management and
+    Economics: 2013-Present / 2005-Present, 2006-Present, 2009-Present
+
+-   Member / Secretary, Vice Chair, Chair, Past Chair ∙ ASCE
+    Construction Institute, Executive Committee of the Construction
+    Research Council: 2005-Present / 2009-2014
+
+-   Site visit organizer, Engineering New Frontiers, School of
+    Engineering: 2019, 2018, 2017, 2014

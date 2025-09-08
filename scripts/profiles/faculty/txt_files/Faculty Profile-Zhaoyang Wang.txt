@@ -1,0 +1,70 @@
+Faculty Profile: Zhaoyang Wang
+Associate Professor
+
+Department: Mechanical Engineering
+
+School: School of Engineering
+
+Email: wangz@cua.edu
+
+Phone: 202-319-6703
+
+Education: Ph.D., Mechanical Engineering, University of Maryland, 2003
+
+Research Interests and Expertise:
+
+Solid mechanics, experimental techniques, optical methods, micro- and
+nano-fabrication, computer vision, robotics, artificial intelligence,
+machine learning, failure and reliability analysis, etc.
+
+Biography:
+
+Dr. Zhaoyang Wang holds two doctoral degrees in solid mechanics and
+microelectronics reliability, respectively. His group is known for their
+work in the fields of solid mechanics and computer vision for 2D/3D
+shape, profile, motion, deformation, and vibration measurements at
+multi-scales in various circumstances. Dr. Wang’s current research
+focuses on experimental mechanics, computer vision, robotics, and
+machine learning. In 2009, Dr. Wang demonstrated 3D imaging work at the
+Smithsonian National Museum of American History. It was featured or
+reported in CBS morning news, Business Week magazine, The Washington
+Times, Voice of America news, etc. In 2014, his work on measuring tiny
+vibrations with a high-speed camera drew considerable attention from
+social media.
+
+Five Selected Papers:
+
+1.  H. Nguyen and Z. Wang, “Accurate 3D shape reconstruction from single
+    structured-light image via fringe-to-fringe network,” Photonics,
+    Vol. 8, No. 11, 459, 2021.
+
+2.  H. Nguyen, T. Tran, Y. Wang, and Z. Wang, “Three-dimensional shape
+    reconstruction from single-shot speckle image using deep
+    convolutional neural networks,” Optics and Lasers in Engineering,
+    Vol. 143, 106639, 2021.
+
+3.  H. Nguyen, Y. Wang, and Z. Wang, “Single-shot 3D shape
+    reconstruction using structured light and deep convolutional neural
+    networks,” Sensors, Vol. 20, 3718, 2020.
+
+4.  Z. Wang, H. Kieu, H. Nguyen, and M. Le, “Digital image correlation
+    in experimental mechanics and image registration in computer vision:
+    similarities, differences and complements,” Optics and Lasers in
+    Engineering, Vol. 65, No. 1, 18-27, 2015.
+
+5.  H. Nguyen, D. Nguyen, Z. Wang, H. Kieu, and M. Le, “Real-time,
+    high-accuracy 3D imaging and shape measurement,” Applied Optics,
+    Vol. 54, No. 1, A9-A17, 2015.
+
+Professional Activities:
+
+-   Secretary, Co-chair of the Electronic Packaging Technical Division,
+    SEM. 2005-2012.
+
+-   Organizing and/or technical committee member for a few international
+    conferences. 2004-present
+
+-   Guest editor, Special issue on Artificial Intelligence in Computer
+    vision: Methods and Applications, Sensors, 2022.
+
+-   Founder: www.opticist.org, 2009-2019.

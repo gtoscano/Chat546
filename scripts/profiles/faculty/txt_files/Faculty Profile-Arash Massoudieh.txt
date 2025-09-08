@@ -1,0 +1,69 @@
+Faculty Profile: Arash Massoudieh
+Professor
+
+Department: Civil and Environmental Engineering
+
+School: School of Engineering
+
+Email: massoudieh@cua.edu
+
+Phone: 202-319-5671
+
+Education: Ph.D., Civil and Environmental Engineering, UC Davis, 2006
+
+Research Interests and Expertise:
+
+Subsurface hydrology, contaminant fate and transport, sustainable
+stormwater management, wastewater treatment.
+
+Biography:
+
+Arash Massoudieh joined the Catholic University of America in 2008 where
+he currently is a professor in the Department of Civil and Environmental
+Engineering. Prior to joining Catholic University, he was a project
+scientist at UC Davis for two years. Massoudieh’s research interest is
+mainly the interface between software development and Environmental
+Engineering. Specifically, Massoudieh has worked on developing software
+applications for predicting the effects of sustainable stormwater
+management practices on hydrology and water quality of surface water,
+inverse modeling, and upscaling reactive transport of contaminants in
+subsurface environments.
+
+Five Selected Papers:
+
+1.  A. Massoudieh and M. Dentz, (2020), Upscaling non-linear reactive
+    transport in correlated velocity fields, Advances in Water
+    Resources, 143, 103680,
+    https://doi.org/10.1016/j.advwatres.2020.103680.
+
+2.  Alikhani, J., C. Nietch, Jacobs S., Shuster, B., and Massoudieh, A.,
+    (2020), Modeling and Design Scenarios Analysis of Long-Term
+    Monitored Bioretention System for Rainfall-Runoff Reduction to
+    Combined Sewer in Cincinnati, OH, Journal of Sustainable water in
+    the build environment, 6(2), 04019016.
+
+3.  Liang, X , N. Lu, L. Chang, T. H. Nguyen, A. Massoudieh, (2018),
+    Evaluation of Bacterial Run and Tumble Motility Parameters Through
+    Trajectory Analysis, J. Contaminant Hydrology, 211, pp 26-38.
+
+4.  Massoudieh, A., M. Maghrebi, B. Kamrani, C. Nietch, M. Tryby, S.
+    Aflaki, S. Panguluri (2017), A flexible modeling framework for
+    hydraulic and water quality performance assessment of stormwater
+    green infrastructure, Environmental Modeling and Software, 92, pp
+    57–73
+
+5.  Alikhani, J., I. Takacs, A. Al-Omari, S. Murthy, A. Massoudieh,
+    (2017), Evaluation of the information content of long-term
+    wastewater characteristics data in relation to activated sludge
+    model parameters, Water Science and Technology, 75(6) pp 1370-1389
+
+Professional Activities (please also include STEM
+
+
+-   Developer of Green Infrastructure Flexible Model (GIFMod
+    www.gifmod.com)
+
+-   Developer of integrated water quantity and quality tool
+    OpenHydroQual (www.openhydroqual.com).
+
+-   Serves on the editorial board of journal Water.

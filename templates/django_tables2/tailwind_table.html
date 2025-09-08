@@ -1,0 +1,84 @@
+{% extends "django_tables2/bootstrap-responsive.html" %}
+<!--- django_tables2 -->
+{% load django_tables2 %}
+
+<!--- crispy_forms ---->
+{% load crispy_forms_tags %}
+
+<!--- static --->
+{% load static %}
+
+<!--- core: table_extras --->
+{% load table_extras %}
+
+<!-- 1) Override the main table block to define your table structure. -->
+{% block table %}
+<table class="django-table table w-full my-4">
+  <thead>
+    <tr>
+      {% for column in table.columns %}
+      <th class="px-2 py-1 text-left border-b">{{ column.header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in table.rows %}
+    <tr class="hover:bg-gray-100">
+      {% for column, cell in row.items %}
+      <td class="px-2 py-1 border-b">{{ cell }}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock table %}
+
+<!-- 2) Override the pagination block. -->
+{% block pagination %} {% if table.page and table.paginator.num_pages > 1 %}
+<nav class="flex items-center justify-center m-4">
+  <ul class="flex space-x-1">
+    <!-- Previous link -->
+    {% if table.page.has_previous %}
+    <li>
+      <a
+        href="{% my_table_page_url table table.page.previous_page_number %}"
+        class="btn btn-sm btn-primary"
+      >
+        Previous
+      </a>
+    </li>
+    {% endif %}
+    <!-- Page numbers -->
+    {% for page_number in table.paginator.page_range %}
+    <!-- if -->
+    {% if table.page.number == page_number %}
+    <li>
+      <span class="btn btn-sm btn-primary">{{ page_number }}</span>
+    </li>
+    {% else %}
+    <li>
+      <a
+        href="{% my_table_page_url table page_number %}"
+        class="btn btn-sm btn-secondary"
+      >
+        {{ page_number }}
+      </a>
+    </li>
+    {% endif %}
+    <!--- end for --->
+    {% endfor %}
+
+    <!-- Next link -->
+    {% if table.page.has_next %}
+    <li>
+      <a
+        href="{% my_table_page_url table table.page.next_page_number %}"
+        class="btn btn-sm btn-primary"
+      >
+        Next
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %} {% endblock pagination %}

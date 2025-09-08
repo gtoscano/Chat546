@@ -1,0 +1,22 @@
+{% load account %}
+{% load i18n %}
+
+{% block content %}
+{% autoescape off %}
+{% user_display user as user_display %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+Hello,
+
+You're receiving this email because user {{ user_display }} has provided your email address to register an account on {{ site_domain }}.
+
+To confirm that this was you, please click the link below to activate your account:
+
+{{ activate_url }}
+
+If you did not initiate this request, please ignore this email or contact our support team at support@{{ site_domain }} for assistance.
+
+Best regards,  
+The {{ site_name }} Team
+{% endblocktrans %}
+{% endautoescape %}
+{% endblock content %}

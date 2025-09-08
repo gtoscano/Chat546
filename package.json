@@ -1,0 +1,12 @@
+{
+  "name": "daisyui-build",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i daisyui-input.css -o ./static_files/css/daisyui.css -y"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.1",
+    "daisyui": "^5.0.12",
+    "tailwindcss": "^4.1.1"
+  }
+}

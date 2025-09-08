@@ -1,0 +1,84 @@
+Faculty Profile: Diego Turo (One page per faculty member)
+Associate Professor
+
+Department: Mechanical Engineering
+
+School: School of Engineering
+
+Email: turo@cua.edu
+
+Phone: 202-319-6669
+
+Education: Ph.D., Acoustics, University of Salford, U.K., 2011
+
+Nationality: Italian, Permanent US Alien Resident (green card holder)
+
+Research Interests and Expertise:
+
+Modeling sound propagation in heterogeneous atmosphere, through porous
+materials and metamaterials; Modeling elastic wave propagation in
+complex materials like living tissues; Modeling linear and nonlinear
+sound propagation.
+
+Biography:
+
+Dr. Diego Turo joined the Catholic University of America in 2014 where
+he currently is an associate professor in the Department of Mechanical
+Engineering. His current research, funded by the Office of Naval
+Research focuses on modeling sound propagation in heterogeneous
+atmosphere and over rough sea and absorbing surfaces. Prior to joining
+Catholic University, he was as researcher at the George Mason University
+in the Department of Biomedical Engineering where he worked on
+ultrasonic technique for mechanical characterization of living tissues.
+Dr. Turo publications span in the fields of acoustics of porous media as
+well as ultrasound atmospheric and underwater acoustics.
+
+Five Selected Papers:
+
+1.  A. Vecchiotti, T. J. Ryan, F. A. Cobb, J. F. Vignola, D. Turo,
+    "Investigation of engineering models for sound propagation in a
+    near-shore environment." Applied Acoustics, 2022
+
+2.  N. T. Gangemi, C. F. Sieck, J. F. Vignola, D. Turo, A. Ikei, A.
+    Vignola, J. W. Baldwin, S. W. Liskey, A. D. Edmunds, W. B.
+    Wilson, M. A. Boone, G. Yesner, D. M. Photiadis, and B. R. Matis,
+    "Frequency-dependent surface wave suppression at the Dirac point of
+    an acoustic graphene analogue". Physical Review B, 2022
+
+3.  J. Williams, F. Corvaro, J. F. Vignola, D. Turo, B. Marchetti,
+    Matteo Vitali, "Application of non-invasive active infrared
+    thermography for delamination detection in fresco", International
+    Journal of Thermal Sciences, 2022S. Guan, J. Vignola, J. Judge,
+    and D. Turo, “Airgun inter-pulse noise field during a seismicsurvey
+    in an Arctic ultra-shallow marine environment,” Journal of the
+    Acoustical Society of America, 138(6): 3447–3457 (2015).
+
+4.  D. Turo, P. Otto, M. Hossain, T. Gebreab, K. Armstrong, W. F.
+    Rosenberger, H. Shao, J. P. Shah, L. H. Gerber and S. Sikdar, "Novel
+    use of ultrasound elastography to quantify muscle tissue changes
+    after dry needling of myofascial trigger points in patients with
+    chronic myofascial pain." J. Ultrasound Med., 34, 2149-61 (2015)
+
+5.  D. Turo, P. Otto, J. Shah, J. Hammond, T. Gebreab, M. Zaazhoa, L.
+    Gerber, S. Sikdar, “Ultrasonic Characterization of the Upper
+    Trapezius Muscle in Patients with Chronic Neck Pain.” Ultrasonic
+    Imaging (2013).
+
+6.  D. Turo, O. Umnova, “Influence of Forchheimer’s Nonlinearity and
+    Transient Effects onPulse Propagation in Air Saturated Rigid
+    Granular Materials.” J. Acoust. Soc. Am., 134(6), 4763-4774 (2013).
+
+Professional Activities (please also include STEM
+
+
+-   Reviewer for the:
+
+    -   Journal of Acoustical Society of America
+
+    -   Applied Acoustics
+
+    -   Acta Acoustica United with Acoustica
+
+    -   Materials of MDPI
+
+    -   Acoustics of MDPI

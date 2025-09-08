@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% load partials %}
+{% load static %}
+{% load i18n %}
+{% load allauth_account socialaccount %}
+{% block content %}
+    <div class="flex min-h-screen items-center justify-center bg-base-200">
+        <div class="m-4 min-h-[50vh] w-full max-w-sm lg:max-w-4xl">
+            <!-- Logo -->
+            <div class="flex items-center justify-center gap-2 p-8">
+                <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1024 1024"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="256" y="670.72" width="512" height="256" rx="128" class="fill-base-content" />
+                    <circle cx="512" cy="353.28" r="256" class="fill-base-content" />
+                    <circle
+                        cx="512"
+                        cy="353.28"
+                        r="261"
+                        stroke="black"
+                        stroke-opacity="0.2"
+                        stroke-width="10" />
+                    <circle cx="512" cy="353.28" r="114.688" class="fill-base-200" />
+                </svg>
+                <h1 class="text-lg font-bold">{% trans "Sign Up" %}</h1>
+            </div>
+            <!-- /Logo -->
+            <main class="grid bg-base-100 lg:aspect-[2/1] lg:grid-cols-2">
+                <!-- Image -->
+                <figure class="pointer-events-none bg-base-300 object-cover max-lg:hidden">
+                    <img src="{% static 'logos/logo.png' %}" alt="{% trans 'Sign Up Closed' %}" class="h-full">
+                </figure>
+                <!-- /Image -->
+                <!-- Sign Up Closed Message -->
+                <div class="flex flex-col justify-center gap-4 px-10 py-10 lg:px-16">
+                    <!-- Alert Message -->
+                    <div class="alert alert-warning text-xs">
+                        {% trans "We are sorry, but the sign up is currently closed." %}
+                    </div>
+                    
+                    <!-- Optional: Additional Information or Contact -->
+                    <p class="text-xs text-center text-gray-500 mt-2">
+                        {% trans "Please contact support if you believe this is an error or if you have any questions." %}
+                    </p>
+                    
+                    <!-- Back to Login Button -->
+                    <a href="{% url 'account_login' %}" class="btn btn-neutral mt-4">
+                        {% trans "Back to Login" %}
+                    </a>
+                </div>
+                <!-- /Sign Up Closed Message -->
+            </main>
+        </div>
+    </div>
+{% endblock content %}

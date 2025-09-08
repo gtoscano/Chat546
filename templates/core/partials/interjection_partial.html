@@ -1,0 +1,38 @@
+<!-- core/partials/interjection_partial.html -->
+<!-- Human Message -->
+<div class="chat chat-start mb-4">
+    <div class="chat-header">Human:</div>
+    <div class="chat-bubble chat-bubble-secondary"><code class="bg-base-300 p-1 rounded text-gray-800">{{ interjection.human }}</code></div>
+</div>
+
+<!-- Bot Message -->
+<div class="chat chat-end mb-4" id="interjection-{{ interjection.id }}">
+    <div class="chat-header flex items-center">
+        <div id="loadingIndicator-{{ interjection.id }}" class="htmx-indicator mr-2">
+            <span class="loading loading-spinner loading-lg"></span>
+        </div>
+        Chihiro bot:
+        {% if not interjection.bot_audio_file %}
+            <button hx-post="{% url 'core:download-speech' interjection.id %}"
+                    hx-trigger="click"
+                    hx-indicator="#loadingIndicator-{{ interjection.id }}"
+                    hx-vals='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'
+                    hx-swap="outerHTML"
+                    class="text-xs opacity-80"
+                    title="Generate Recording">
+                <span class="material-symbols-outlined text-red-500">text_to_speech</span>
+            </button>
+        {% else %}
+            <button onclick="playAudio('{{ interjection.bot_audio_file.url }}')" class="btn btn-sm btn-secondary ml-2" title="Play Audio">
+                <span class="material-symbols-outlined">play_circle</span>
+            </button>
+        {% endif %}
+    </div>
+    <div class="chat-bubble chat-bubble-primary">
+        {% if interjection.bot %}
+            {{ interjection.bot|safe }}
+        {% else %}
+            <p>Waiting for response...</p>
+        {% endif %}
+    </div>
+</div>

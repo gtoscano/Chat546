@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load tailwind_filters %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="w-full px-4">
+        <div class="my-5 text-center">
+            <h1 class="text-3xl font-bold">{{ page_title }}</h1>
+        </div>
+
+        <div class="w-full max-w-4xl mx-auto">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% crispy form %}
+                {% if form.errors %}
+                    <div class="text-red-500">
+                        <ul>
+                            {% for field in form %}
+                                {% if field.errors %}
+                                    <li>{{ field.label }}: {{ field.errors|join:", " }}</li>
+                                {% endif %}
+                            {% endfor %}
+                            {% if form.non_field_errors %}
+                                {% for error in form.non_field_errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            {% endif %}
+                        </ul>
+                    </div>
+                {% endif %}
+                <div class="flex justify-end space-x-2 mt-4">
+                    <a href="{{ request.META.HTTP_REFERER|escape }}" class="btn btn-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">{{ button_name }}</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="my-5 text-right">
+            <a href="{{ request.META.HTTP_REFERER|escape }}">Back</a>
+        </div>
+    </div>
+{% endblock %}

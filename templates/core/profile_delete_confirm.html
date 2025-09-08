@@ -1,0 +1,14 @@
+<!-- core/templates/core/profile_delete_confirm.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mx-auto p-4">
+  <h2 class="text-xl font-semibold mb-4">Confirm Delete Profile</h2>
+  <p>Are you sure you want to delete your profile? This action cannot be undone.</p>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Delete Profile</button>
+    <a href="{% url 'profile' %}" class="btn btn-secondary">Cancel</a>
+  </form>
+</div>
+{% endblock content %}

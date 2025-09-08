@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% load partials %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <div class="flex min-h-screen items-center justify-center bg-base-200">
+        <div class="m-4 min-h-[50vh] w-full max-w-sm lg:max-w-4xl">
+            <!-- Logo Section -->
+            <div class="flex items-center justify-center gap-2 p-8">
+                <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 1024 1024"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="256" y="670.72" width="512" height="256" rx="128" class="fill-base-content" />
+                    <circle cx="512" cy="353.28" r="256" class="fill-base-content" />
+                    <circle
+                        cx="512"
+                        cy="353.28"
+                        r="261"
+                        stroke="black"
+                        stroke-opacity="0.2"
+                        stroke-width="10" />
+                    <circle cx="512" cy="353.28" r="114.688" class="fill-base-200" />
+                </svg>
+                <h1 class="text-lg font-bold">{% trans "Account Inactive" %}</h1>
+            </div>
+            <!-- /Logo Section -->
+
+            <main class="grid bg-base-100 lg:aspect-[2/1] lg:grid-cols-2">
+                <!-- Image Section -->
+                <figure class="pointer-events-none bg-base-300 object-cover max-lg:hidden">
+                    <img src="{% static 'logos/logo.png' %}" alt="{% trans 'Account Inactive' %}" class="h-full">
+                </figure>
+                <!-- /Image Section -->
+
+                <!-- Account Inactive Message Section -->
+                <div class="flex flex-col justify-center gap-4 px-10 py-10 lg:px-16">
+                    <!-- Informational Alert -->
+                    <div class="alert alert-warning text-xs">
+                        {% trans "Your account is currently inactive. This might be due to unverified email, pending approval, or other reasons." %}
+                    </div>
+
+                    <!-- Detailed Information -->
+                    <p class="text-xs text-gray-700">
+                        {% trans "If you believe this is a mistake or need assistance, please contact our support team. You can also try verifying your email address if you haven't done so already." %}
+                    </p>
+
+                    <!-- Actions Section -->
+                    <div class="flex flex-col gap-2">
+                        <!-- Resend Verification Email (if applicable) -->
+                        {% if user and not user.is_active %}
+                            <form method="post" action="{% url 'account_email_verification_sent' %}" class="flex flex-col gap-2">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-neutral text-xs">
+                                    {% trans "Resend Verification Email" %}
+                                </button>
+                            </form>
+                        {% endif %}
+
+                        <!-- Change Email Address Option -->
+                        {% if user %}
+                            <p class="text-xs text-gray-700">
+                                {% trans "If you need to update your email address, you can do so below." %}
+                            </p>
+                            <a href="{% url 'account_email' %}" class="btn btn-link text-xs">
+                                {% trans "Change Email Address" %}
+                            </a>
+                        {% endif %}
+
+                        <!-- Back to Login -->
+                        <div class="label justify-end mt-4">
+                            <a href="{% url 'account_login' %}" class="link-hover link label-text-alt text-xs">
+                                {% trans "Back to Login" %}
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /Actions Section -->
+                </div>
+                <!-- /Account Inactive Message Section -->
+            </main>
+        </div>
+    </div>
+{% endblock content %}

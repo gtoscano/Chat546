@@ -1,0 +1,100 @@
+<!-- templates/chat/chat_window.html -->
+{% extends "base.html" %}
+{% load widget_tweaks %}
+{% load partials %}
+{% load static %}
+
+{% block content %} 
+
+  <h2 class="text-xl font-bold mb-4">Welcome to the Chat Page!</h2>
+
+  <!-- Floating button that triggers Magnific Popup -->
+  <a
+    href="#chat-window"
+    class="fixed bottom-4 right-4 btn btn-circle btn-primary shadow-lg open-popup-link"
+  >
+    <!-- Chat icon -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M2.25 15a3.75 3.75 0 003.75 3.75h.586a1.5
+           1.5 0 011.06.44l2.012 2.012c.967.967 2.628.283
+           2.628-1.06v-1.392a.75.75 0 01.75-.75h2.25A3.75
+           3.75 0 0021.75 15V6A3.75 3.75 0 0018
+           2.25H6A3.75 3.75 0 002.25 6v9z"
+      />
+    </svg>
+  </a>
+
+  <!-- Hidden chat modal for Magnific Popup -->
+  <div id="chat-window" class="mfp-hide fixed inset-0 flex items-end justify-end p-4">
+    <div class="relative bg-base-100 w-full sm:w-1/3 md:w-1/4 lg:w-1/4 shadow-lg rounded-lg overflow-hidden flex flex-col" style="max-height: 80vh;">
+      
+      <!-- Modal Header using DaisyUI defaults for header -->
+      <div class="sticky top-0 bg-primary text-primary-content p-4 flex justify-between items-center">
+        <h3 class="font-semibold">Chat with me!</h3>
+        <button id="closeChat" class="text-primary-content text-2xl leading-none" title="Close">&times;</button>
+      </div>
+      
+      <!-- Chat Messages Container using default background for content -->
+      <div id="chat-messages" class="flex-1 p-4 overflow-y-auto space-y-2 bg-base-200">
+        <!-- Existing messages will appear here -->
+      </div>
+      
+      <!-- Chat Input Form -->
+      <form
+        hx-post="{% url 'chats:chat_api' %}"
+        hx-target="#chat-messages"
+        hx-swap="beforeend"
+        method="POST"
+        class="p-4 border-t flex items-center space-x-2"
+      >
+        {% csrf_token %}
+        <input
+          type="text"
+          name="message"
+          class="flex-1 border rounded-full px-4 py-2 focus:outline-none"
+          placeholder="Type a message..."
+          required
+        />
+        <button class="btn btn-primary" type="submit">
+          Send
+        </button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Magnific Popup configuration -->
+  <script>
+    $(document).ready(function() {
+      $('.open-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true,
+        closeBtnInside: true,
+        removalDelay: 300,
+        closeOnBgClick: true,
+        enableEscapeKey: true,
+        callbacks: {
+          open: function() {
+            // Auto-focus the chat input when the popup opens
+            $('#chat-window input[name="message"]').focus();
+          }
+        }
+      });
+      
+      // Bind the custom close button to close the popup
+      $('#closeChat').on('click', function() {
+        $.magnificPopup.close();
+      });
+    });
+  </script>
+
+{% endblock content %}
