@@ -4,11 +4,12 @@ from django.conf import settings
 from django.views.generic import TemplateView, View
 from django.shortcuts import render
 from django.http import JsonResponse
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 
 client = OpenAI()
 
 
-class ChatPageView(TemplateView):
+class ChatPageView(LoginRequiredMixin, TemplateView):
     """Renders the main page with the floating chat window."""
 
     template_name = "chats/chat_window.html"
