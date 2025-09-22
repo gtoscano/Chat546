@@ -1,26 +1,5 @@
 # docker-compose up --scale web=3 --scale celery=5
 services:
-  #docker:
-  #  image: docker:dind
-  #  privileged: true
-  #  command:
-  #    - dockerd
-  #    - --host=tcp://0.0.0.0:2376  # Change port to 2376 for TLS
-  #    - --host=unix:///var/run/docker.sock
-  #    - --tlsverify
-  #    - --tlscacert=/certs/ca.pem
-  #    - --tlscert=/certs/server-cert.pem
-  #    - --tlskey=/certs/server-key.pem
-  #  environment:
-  #    - DOCKER_TLS_CERTDIR=/certs  # Enable automatic certificate generation
-  #    - DOCKER_AUTH_CONFIG={"auths":{"https://index.docker.io/v1/":{"auth":"Z3JlZ29yaW90b3NjYW5vOk9YMzFtKjFPZkZ5Wg=="}}}
-  #  volumes:
-  #    - dind-certs:/certs  # Persistent storage for TLS certificates
-  #    - dind-certs-client:/certs/client  # Client certs for services
-  #  networks:
-  #    - internal-net
-  #  restart: unless-stopped
-
   nginx:
     image: nginx:1.27-alpine
     volumes:
@@ -38,16 +17,6 @@ services:
       - "80:80"
       - "443:443"
 
-  #cloudflared:
-  #  image: cloudflare/cloudflared:latest
-  #  command: tunnel run
-  #  env_file:
-  #    - variables.env  # Move TUNNEL_TOKEN to env_file
-  #  networks:
-  #    - internal-net
-  #  restart: unless-stopped
-  #  depends_on:
-  #    - nginx
 
   # Web service with build configuration
   web:
@@ -56,7 +25,7 @@ services:
       dockerfile: Dockerfile
       args:
         DOCKER_GID: ${DOCKER_GID}
-    image: ignitehub-app:latest # Built image
+    image: chat546-app:latest # Built image
     #privileged: true
     command: >
       sh -c "
@@ -103,7 +72,7 @@ services:
 
   #Celery Worker Service
   celery:
-    image: ignitehub-app:latest
+    image: chat546-app:latest
     command: >
       sh -c "
         ./wait-for-it.sh web:8080 -- 
@@ -135,7 +104,7 @@ services:
 
   # Celery Beat Service
   celery-beat:
-    image: ignitehub-app:latest
+    image: chat546-app:latest
 
     command: >
       sh -c "
@@ -168,7 +137,7 @@ services:
 
   # Flower Service for monitoring Celery
   flower:
-    image: ignitehub-app:latest
+    image: chat546-app:latest
     command: >
       sh -c "
         ./wait-for-it.sh web:8080 -- 
@@ -254,9 +223,6 @@ services:
       timeout: 10s
       retries: 5
 
-volumes:
-  dind-certs:
-  dind-certs-client:
 
 networks:
   internal-net:
